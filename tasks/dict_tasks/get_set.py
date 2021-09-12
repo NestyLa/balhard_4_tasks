@@ -10,8 +10,8 @@ from typing import Any
 
 
 def get_or_set(collection: dict, key: Any) -> Any:
-    # TODO вставить код сюда
-    result = None
+
+    result = collection.setdefault(3, 3)
     return result
 
 
