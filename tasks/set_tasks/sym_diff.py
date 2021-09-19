@@ -6,7 +6,7 @@
 
 
 def sym_diff(set_1: set, set_2: set) -> set:
-    
+
     result = set_1.symmetric_difference(set_2)
     return result
 
