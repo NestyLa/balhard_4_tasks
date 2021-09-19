@@ -20,12 +20,15 @@
 get_planet_name(3) -> 'Земля'
 """
 
-
 def get_planet_name(planet_num: int) -> str:
-    result = None
+    planets_of_suns_system = {1: 'Меркурий', 2: "Венера", 3: 'Земля', 4: 'Марс',
+                              5: 'Юпитер', 6: 'Сатурн', 7: 'Уран', 8: 'Нептун' }
+    result = planets_of_suns_system.get(planet_num)
     return result
 
 
-if __name__ == '__main__':
+if __name__ != '__main__':
+    pass
+else:
     planet = int(input('Введите номер планеты: '))
     print(f'Планета: {get_planet_name(planet)}')
