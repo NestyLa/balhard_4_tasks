@@ -6,9 +6,10 @@
 
 
 def sym_diff(set_1: set, set_2: set) -> set:
-    # TODO вставить код сюда
+    
     result = set_1.symmetric_difference(set_2)
     return result
+
 
 
 if __name__ == '__main__':
