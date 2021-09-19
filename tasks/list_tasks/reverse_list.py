@@ -9,7 +9,7 @@ from copy import deepcopy
 def reverse_list(collection: list) -> list:
     collection_copy = deepcopy(collection)
     # TODO вставить код сюда
-    new_collections = collection_copy.reverse()
+    collection_copy.reverse()
     return collection_copy
 
 

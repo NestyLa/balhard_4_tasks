@@ -31,6 +31,7 @@ USERS = {
     }
 }
 
+
 def check_in(users: dict, key: Any) -> bool:
     result = key in users
     return result

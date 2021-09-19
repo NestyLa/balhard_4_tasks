@@ -10,6 +10,8 @@
 
 (Нужно вернуть глубокую копию данных)
 """
+from copy import deepcopy
+
 user_data = {
     "name": None,
     "surname": None
@@ -19,7 +21,7 @@ user_template = [
     123456,
     user_data
 ]
-from copy import deepcopy
+
 
 def deepcopy_list(collection: list) -> list:
     # TODO вставить код сюда

@@ -11,7 +11,6 @@ def sym_diff(set_1: set, set_2: set) -> set:
     return result
 
 
-
 if __name__ == '__main__':
     some_set = {1, 2, 3, 4}
     another_set = {3, 4, 5}

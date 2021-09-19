@@ -14,6 +14,7 @@ def common_elements(list_1: list, list_2) -> set:
     result = set_1.union(set_2)
     return result
 
+
 if __name__ == '__main__':
     assert common_elements([1, 2, 3], [2, 3, 4]) == {1, 2, 3, 4}
     print('Решено!')

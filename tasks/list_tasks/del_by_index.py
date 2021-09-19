@@ -4,14 +4,15 @@
 Дан список покупок в приложении. Предоставить пользователю возможность удалять
 товар по его номеру (не индексу)
 """
-from typing import List
+
+# from typing import List
 
 shopping_list = ["молоко", "сметана", "сыр"]
 
 
 def del_by_num(collection: list, num: int) -> list:
     # TODO вставить код сюда
-    collection_new = collection.pop(num-1)
+    collection.pop(num - 1)
     return collection
 
 
