@@ -8,7 +8,8 @@ from typing import Any
 
 def del_by_value(collection: set, value: Any) -> set:
     # TODO вставить код сюда
-    return collection
+
+    return collection.remove(value)
 
 
 if __name__ == '__main__':
